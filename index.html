@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body id="Home">
+    <div class="wrap">
+        <header>
+      <div class="nav">
+        <div class="left">Ritik's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#Home" >Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a  href="#skill">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/" >Contact </a></li>
+          </ul>
+        </div>
+      </div>
+        </header>
+        <main  >
+            <section class="firstsection" >
+                <div class="leftsection">
+                    Hi, My Name is <span class="purple">Ritik
+                    </span>
+                    <div class="intro">
+                       and I am Passionate</div>
+                    <span id="element"></span>
+                    <div class="button">
+                      <a href="https://drive.google.com/file/d/1gSXU6ABhvI51rUJn2joHI0w6le9hj6Ot/view?usp=sharing"><button class="btn">Download Resume</button></a>
+                      <a href="https://github.com/Ritik-Raghuwanshi/Blogging-website.git"><button class="btn">Visit Github</button></a>
+                    </div>
+                </div>
+                <div class="rightsection">
+                    <img src="/Image/developer.webp" alt="">
+                </div>
+            </section>
+
+            <hr>
+            <section class="secondsection" id="skill">
+                <span class="text">What I  have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img src="/Image/Html.png" alt="" class="image-top">
+                        <div class="skill1">
+                            HTML 
+                        </div>
+                        <div class="desc1">
+                          I have a solid understanding of HTML, acquired during my college education, and have practical experience through hands-on projects. Proficient in structuring web content using HTML tags, creating links, and incorporating multimedia elements. This skill, coupled with my degree, enhances my ability to contribute effectively to web development projects.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="/Image/css-logo.png" alt="" class="image-top2">
+                        <div class="skill2">
+                            CSS 
+                        </div>
+                        <div class="desc2">
+                          As a recent graduate, I've acquired and applied CSS skills to design visually appealing and responsive web interfaces. Proficient in styling HTML elements, implementing layouts, and utilizing CSS frameworks. My hands-on experience, combined with a solid educational foundation, positions me well for contributions in front-end development.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="/Image/javascript.png" alt="" class="image-top3">
+                        <div class="skill3">
+                            Javascript
+                        </div>
+                        <div class="desc3">
+                          I've cultivated strong JavaScript skills as a recent graduate, implementing dynamic and interactive features on web pages. Proficient in DOM manipulation, event handling, and utilizing libraries like jQuery. My hands-on experience, coupled with a solid educational background, enables me to contribute effectively to front-end development projects.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="/Image/nodejs.png" alt="" class="image-top4">
+                        <div class="skill4">
+                            NodeJS
+                        </div>
+                        <div class="desc4">
+                        As a recent graduate, I've honed my skills in Node.js and Express.js for backend development. Proficient in creating scalable and efficient server-side applications, handling routes, middleware, and integrating databases. My hands-on experience, paired with a solid educational foundation, positions me as a capable contributor to backend development projects.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img src="/Image/MongoDB-Logo.png" alt="" class="image-top5">
+                        <div class="skill5">
+                            MongoDB 
+                        </div>
+                        <div class="desc5">
+                          As a fresh graduate, I've learned MongoDB database skills, gaining expertise in NoSQL data management. I've actively engaged in designing and querying MongoDB databases, honing my abilities to work with flexible data structures. This foundational knowledge positions me for effective contributions in database-related tasks.
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+        </main>
+        <footer>
+          <div class="footer" id="about">
+            <div class="first">
+              Ritik's Portfolio
+            </div>
+            <div class="second">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="third">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="fourth">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+              </div>
+          </div>
+          <div class="link"> Copyright &#169; ritik'sportfolio.com | All rights are reserved</div>
+        </footer>
+    </div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper.', ' Video Editor.' ,' Coder.'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
